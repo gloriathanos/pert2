@@ -1,0 +1,12 @@
+2025-04-23 14:34:56.092 [info] 
+
+
+
+
+2025-04-23 14:34:56.178 [info] Extension host agent started.
+2025-04-23 14:34:56.503 [info] [127.0.0.1][d4bce58c][ManagementConnection] New connection established.
+2025-04-23 14:34:56.966 [info] [127.0.0.1][403b7488][ExtensionHostConnection] New connection established.
+2025-04-23 14:34:57.528 [info] [127.0.0.1][403b7488][ExtensionHostConnection] <504> Launched Extension Host Process.
+2025-04-23 14:35:07.815 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-04-23 14:35:08.509 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-04-23 14:35:21.274 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com

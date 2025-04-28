@@ -1,0 +1,62 @@
+2025-04-23 14:01:22.494 [info] 
+
+
+
+
+2025-04-23 14:01:22.513 [info] Extension host agent started.
+2025-04-23 14:01:22.692 [info] [127.0.0.1][b786408b][ManagementConnection] New connection established.
+2025-04-23 14:01:23.245 [info] [127.0.0.1][3850724b][ExtensionHostConnection] New connection established.
+2025-04-23 14:01:23.816 [info] [127.0.0.1][3850724b][ExtensionHostConnection] <3510> Launched Extension Host Process.
+2025-04-23 14:01:24.543 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 14:05:08.619 [info] [127.0.0.1][49efe68f][ManagementConnection] New connection established.
+2025-04-23 14:05:08.861 [info] [127.0.0.1][b786408b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-23 14:05:08.993 [info] [127.0.0.1][3850724b][ExtensionHostConnection] <3510> Extension Host Process exited with code: 0, signal: null.
+2025-04-23 14:05:09.949 [info] [127.0.0.1][40181811][ExtensionHostConnection] New connection established.
+2025-04-23 14:05:09.976 [info] [127.0.0.1][40181811][ExtensionHostConnection] <3948> Launched Extension Host Process.
+2025-04-23 14:12:33.205 [error] #3: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 14:13:11.848 [info] Getting Manifest... jebbs.plantuml
+2025-04-23 14:13:18.711 [error] #4: https://jebbs.gallerycdn.vsassets.io/extensions/jebbs/plantuml/2.18.1/1712815581124/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 14:13:52.477 [error] #5: https://jebbs.gallery.vsassets.io/_apis/public/gallery/publisher/jebbs/extension/plantuml/2.18.1/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 14:21:12.065 [error] #7: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 14:21:12.066 [info] Getting Manifest... jebbs.plantuml
+2025-04-23 14:21:13.202 [info] Installing extension: jebbs.plantuml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 14:21:51.993 [warning] Failed downloading vsix. Unable to write file '/root/.vscode-server/data/CachedExtensionVSIXs/.5ab681ba-07a9-4e1e-bd83-3767c3ac2672' (Error: aborted). Retry again... jebbs.plantuml
+2025-04-23 14:22:41.643 [error] #10: https://jebbs.gallery.vsassets.io/_apis/public/gallery/publisher/jebbs/extension/plantuml/2.18.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&install=true - error GET connect EHOSTUNREACH 13.107.6.175:443
+2025-04-23 14:22:51.684 [error] #11: https://jebbs.gallery.vsassets.io/_apis/public/gallery/publisher/jebbs/extension/plantuml/2.18.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true - error GET getaddrinfo EAI_AGAIN jebbs.gallery.vsassets.io
+2025-04-23 14:22:51.686 [warning] Failed downloading vsix. getaddrinfo EAI_AGAIN jebbs.gallery.vsassets.io. Retry again... jebbs.plantuml
+2025-04-23 14:22:53.679 [error] #12: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-04-23 14:23:00.658 [error] #13: https://jebbs.gallery.vsassets.io/_apis/public/gallery/publisher/jebbs/extension/plantuml/2.18.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&install=true - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 14:23:12.683 [error] #16: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-04-23 14:23:20.173 [error] #14: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET
+2025-04-23 14:23:22.438 [error] #15: https://jebbs.gallery.vsassets.io/_apis/public/gallery/publisher/jebbs/extension/plantuml/2.18.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 14:23:22.444 [error] Error while installing the extension jebbs.plantuml AggregateError [ETIMEDOUT]:  file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 14:23:23.451 [error] AggregateError [ETIMEDOUT]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at internalConnectMultiple (node:net:1190:5)
+    at Timeout.internalConnectMultipleTimeout (node:net:1716:5)
+    at listOnTimeout (node:internal/timers:583:11)
+    at process.processTimers (node:internal/timers:519:7)
+2025-04-23 14:24:29.808 [info] Getting Manifest... jebbs.plantuml
+2025-04-23 14:24:33.305 [info] Installing extension: jebbs.plantuml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 14:25:21.526 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/1208b6f0-3ab0-45a1-9999-1fe0377c7c76
+2025-04-23 14:25:21.575 [info] Installing extension: jebbs.plantuml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 14:25:21.576 [info] Installing the extension without checking dependencies and pack jebbs.plantuml
+2025-04-23 14:25:22.200 [info] Extracted extension to file:///root/.vscode-server/extensions/jebbs.plantuml-2.18.1: jebbs.plantuml
+2025-04-23 14:25:22.240 [info] Renamed to /root/.vscode-server/extensions/jebbs.plantuml-2.18.1
+2025-04-23 14:25:22.296 [info] Extension installed successfully: jebbs.plantuml file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 14:25:23.737 [error] #21: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 14:26:25.858 [info] Extension signature verification result for jebbs.plantuml: Success. Internal Code: 0. Executed: true. Duration: 15274ms.
+2025-04-23 14:26:25.970 [info] Extension installed successfully: jebbs.plantuml file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 14:27:18.242 [info] [127.0.0.1][49efe68f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-23 14:27:18.471 [info] [127.0.0.1][40181811][ExtensionHostConnection] <3948> Extension Host Process exited with code: 0, signal: null.
+2025-04-23 14:27:22.588 [info] [127.0.0.1][31cd667f][ManagementConnection] New connection established.
+2025-04-23 14:27:23.418 [info] [127.0.0.1][ed06eb26][ExtensionHostConnection] New connection established.
+2025-04-23 14:27:23.426 [info] [127.0.0.1][ed06eb26][ExtensionHostConnection] <5229> Launched Extension Host Process.
+2025-04-23 14:29:26.027 [info] [127.0.0.1][41781c81][ManagementConnection] New connection established.
+2025-04-23 14:29:26.929 [info] [127.0.0.1][3657a88c][ExtensionHostConnection] New connection established.
+2025-04-23 14:29:26.949 [info] [127.0.0.1][3657a88c][ExtensionHostConnection] <5813> Launched Extension Host Process.
+2025-04-23 14:29:49.871 [info] [127.0.0.1][41781c81][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-23 14:29:49.981 [info] [127.0.0.1][3657a88c][ExtensionHostConnection] <5813> Extension Host Process exited with code: 0, signal: null.
+2025-04-23 14:29:52.450 [info] [127.0.0.1][70c5f580][ManagementConnection] New connection established.
+2025-04-23 14:29:53.689 [info] [127.0.0.1][3253cf31][ExtensionHostConnection] New connection established.
+2025-04-23 14:29:53.696 [info] [127.0.0.1][3253cf31][ExtensionHostConnection] <5957> Launched Extension Host Process.

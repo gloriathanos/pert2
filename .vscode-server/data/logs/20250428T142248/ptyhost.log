@@ -1,0 +1,2 @@
+2025-04-28 14:22:49.491 [info] Revived process, old id 07296f763c4b046045b6f6c5639cf2d2-1 -> new id 1
+2025-04-28 14:22:53.944 [error] Failed to set sticky bit on /tmp/root-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/root-code-zsh'

@@ -1,0 +1,91 @@
+2025-04-23 14:35:02.480 [info] [main] Log level: Info
+2025-04-23 14:35:02.480 [info] [main] Validating found git in: "git"
+2025-04-23 14:35:02.480 [info] [main] Using git "2.43.0" from "git"
+2025-04-23 14:35:02.480 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-23 14:35:02.495 [info] > git rev-parse --show-toplevel [163ms]
+2025-04-23 14:35:02.513 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2025-04-23 14:35:02.564 [info] [Model][openRepository] Opened repository: /root/struktur_data/struktur_data
+2025-04-23 14:35:02.587 [info] > git rev-parse --show-toplevel [12ms]
+2025-04-23 14:35:02.588 [info] > git config --get commit.template [16ms]
+2025-04-23 14:35:02.607 [info] > git rev-parse --show-toplevel [16ms]
+2025-04-23 14:35:02.624 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-23 14:35:02.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-04-23 14:35:02.648 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-23 14:35:02.665 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-23 14:35:02.666 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2025-04-23 14:35:02.679 [info] > git status -z -uall [49ms]
+2025-04-23 14:35:02.679 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-23 14:35:02.685 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-23 14:35:02.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-04-23 14:35:02.741 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2025-04-23 14:35:02.742 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-23 14:35:02.756 [info] > git config --get commit.template [31ms]
+2025-04-23 14:35:02.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-04-23 14:35:02.780 [info] > git status -z -uall [6ms]
+2025-04-23 14:35:02.781 [info] > git reflog main --grep-reflog=branch: Created from *. [25ms]
+2025-04-23 14:35:02.785 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-23 14:35:02.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-23 14:35:02.873 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [89ms]
+2025-04-23 14:35:02.873 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-23 14:35:02.874 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-23 14:35:02.878 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-04-23 14:35:02.878 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-23 14:35:02.883 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2025-04-23 14:35:02.888 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-04-23 14:35:02.888 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-23 14:35:02.888 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-23 14:35:03.127 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-23 14:36:59.748 [info] > git check-ignore -v -z --stdin [17ms]
+2025-04-23 14:36:59.791 [info] > git show --textconv :pert1/struktur_data.puml [14ms]
+2025-04-23 14:36:59.791 [info] > git ls-files --stage -- pert1/struktur_data.puml [9ms]
+2025-04-23 14:36:59.806 [info] > git hash-object -t tree /dev/null [11ms]
+2025-04-23 14:36:59.806 [warning] [GitFileSystemProvider][stat] File not found - git:/root/struktur_data/struktur_data/pert1/struktur_data.puml.git?%7B%22path%22%3A%22%2Froot%2Fstruktur_data%2Fstruktur_data%2Fpert1%2Fstruktur_data.puml%22%2C%22ref%22%3A%22%22%7D
+2025-04-23 14:36:59.810 [info] > git hash-object -t tree /dev/null [11ms]
+2025-04-23 14:36:59.812 [warning] [GitFileSystemProvider][readFile] File not found - git:/root/struktur_data/struktur_data/pert1/struktur_data.puml.git?%7B%22path%22%3A%22%2Froot%2Fstruktur_data%2Fstruktur_data%2Fpert1%2Fstruktur_data.puml%22%2C%22ref%22%3A%22%22%7D
+2025-04-23 14:36:59.841 [info] > git blame --root --incremental cd8661161bdc855931e0a54afc6102c2d1d8e960 -- pert1/struktur_data.puml [2ms]
+2025-04-23 14:36:59.842 [info] fatal: no such path pert1/struktur_data.puml in cd8661161bdc855931e0a54afc6102c2d1d8e960
+2025-04-23 14:37:00.197 [info] > git config --get commit.template [5ms]
+2025-04-23 14:37:00.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-23 14:37:00.210 [info] > git status -z -uall [9ms]
+2025-04-23 14:37:00.210 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-23 14:37:10.628 [info] > git config --get commit.template [6ms]
+2025-04-23 14:37:10.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-23 14:37:10.642 [info] > git status -z -uall [8ms]
+2025-04-23 14:37:10.649 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-23 14:37:10.661 [info] > git check-ignore -v -z --stdin [13ms]
+2025-04-23 14:37:13.240 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-23 14:37:14.673 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-23 14:37:15.662 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-23 14:37:15.663 [info] > git config --get commit.template [5ms]
+2025-04-23 14:37:15.670 [info] > git status -z -uall [5ms]
+2025-04-23 14:37:15.673 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-23 14:39:21.476 [info] > git config --get commit.template [2ms]
+2025-04-23 14:39:21.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-23 14:39:21.490 [info] > git status -z -uall [4ms]
+2025-04-23 14:39:21.494 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-23 15:04:44.013 [info] > git config --get commit.template [3ms]
+2025-04-23 15:04:44.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-23 15:04:44.042 [info] > git status -z -uall [12ms]
+2025-04-23 15:04:44.049 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-23 15:04:49.149 [info] > git config --get commit.template [44ms]
+2025-04-23 15:04:49.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-04-23 15:04:49.177 [info] > git status -z -uall [10ms]
+2025-04-23 15:04:49.180 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-23 15:20:37.576 [info] > git show --textconv :pert2/pert1.md [52ms]
+2025-04-23 15:20:37.578 [warning] [GitFileSystemProvider][readFile] File not found - git:/root/struktur_data/struktur_data/pert2/pert1.md.git?%7B%22path%22%3A%22%2Froot%2Fstruktur_data%2Fstruktur_data%2Fpert2%2Fpert1.md%22%2C%22ref%22%3A%22%22%7D
+2025-04-23 15:20:37.582 [info] > git ls-files --stage -- pert2/pert1.md [21ms]
+2025-04-23 15:20:37.584 [warning] [GitFileSystemProvider][stat] File not found - git:/root/struktur_data/struktur_data/pert2/pert1.md.git?%7B%22path%22%3A%22%2Froot%2Fstruktur_data%2Fstruktur_data%2Fpert2%2Fpert1.md%22%2C%22ref%22%3A%22%22%7D
+2025-04-23 15:20:37.696 [info] > git check-ignore -v -z --stdin [16ms]
+2025-04-23 15:21:10.568 [info] > git show --textconv :pert2/pert2.md [10ms]
+2025-04-23 15:21:10.569 [warning] [GitFileSystemProvider][readFile] File not found - git:/root/struktur_data/struktur_data/pert2/pert2.md.git?%7B%22path%22%3A%22%2Froot%2Fstruktur_data%2Fstruktur_data%2Fpert2%2Fpert2.md%22%2C%22ref%22%3A%22%22%7D
+2025-04-23 15:21:10.577 [info] > git ls-files --stage -- pert2/pert2.md [13ms]
+2025-04-23 15:21:10.578 [warning] [GitFileSystemProvider][stat] File not found - git:/root/struktur_data/struktur_data/pert2/pert2.md.git?%7B%22path%22%3A%22%2Froot%2Fstruktur_data%2Fstruktur_data%2Fpert2%2Fpert2.md%22%2C%22ref%22%3A%22%22%7D
+2025-04-23 15:21:10.711 [info] > git check-ignore -v -z --stdin [17ms]
+2025-04-23 15:21:20.499 [info] > git config --get commit.template [9ms]
+2025-04-23 15:21:20.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-04-23 15:21:20.529 [info] > git status -z -uall [16ms]
+2025-04-23 15:21:20.535 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-23 15:21:25.595 [info] > git config --get commit.template [7ms]
+2025-04-23 15:21:25.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-23 15:21:25.620 [info] > git status -z -uall [7ms]
+2025-04-23 15:21:25.623 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]

@@ -1,0 +1,48 @@
+2025-04-28 14:22:55.623 [info] [main] Log level: Info
+2025-04-28 14:22:55.623 [info] [main] Validating found git in: "git"
+2025-04-28 14:22:55.623 [info] [main] Using git "2.43.0" from "git"
+2025-04-28 14:22:55.623 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-28 14:22:55.623 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-28 14:22:55.623 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2025-04-28 14:22:55.623 [info] [Model][openRepository] Opened repository: /root/struktur_data/struktur_data
+2025-04-28 14:22:55.623 [info] > git rev-parse --show-toplevel [79ms]
+2025-04-28 14:22:55.623 [info] > git config --get commit.template [85ms]
+2025-04-28 14:22:55.638 [info] > git rev-parse --show-toplevel [10ms]
+2025-04-28 14:22:55.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-04-28 14:22:55.657 [info] > git status -z -uall [12ms]
+2025-04-28 14:22:55.665 [info] > git rev-parse --show-toplevel [9ms]
+2025-04-28 14:22:55.680 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-28 14:22:55.680 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2025-04-28 14:22:55.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-04-28 14:22:55.755 [info] > git config --get commit.template [9ms]
+2025-04-28 14:22:55.755 [info] > git rev-parse --show-toplevel [19ms]
+2025-04-28 14:22:55.756 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2025-04-28 14:22:55.757 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-28 14:22:55.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-04-28 14:22:55.811 [info] > git rev-parse --show-toplevel [39ms]
+2025-04-28 14:22:55.843 [info] > git status -z -uall [48ms]
+2025-04-28 14:22:55.843 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2025-04-28 14:22:55.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-28 14:22:55.879 [info] > git rev-parse --show-toplevel [47ms]
+2025-04-28 14:22:55.899 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-28 14:22:55.901 [info] > git config --get --local branch.main.vscode-merge-base [23ms]
+2025-04-28 14:22:55.901 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-28 14:22:55.997 [info] > git reflog main --grep-reflog=branch: Created from *. [228ms]
+2025-04-28 14:22:56.002 [info] > git reflog main --grep-reflog=branch: Created from *. [98ms]
+2025-04-28 14:22:56.006 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-04-28 14:22:56.006 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-28 14:22:56.006 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-28 14:22:56.008 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-04-28 14:22:56.008 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-28 14:22:56.008 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-28 14:22:56.056 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 14:23:12.293 [info] > git check-ignore -v -z --stdin [12ms]
+2025-04-28 14:23:14.315 [info] > git check-ignore -v -z --stdin [12ms]
+2025-04-28 14:23:18.522 [info] > git check-ignore -v -z --stdin [19ms]
+2025-04-28 14:23:20.361 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 14:23:21.956 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 14:30:54.684 [info] > git check-ignore -v -z --stdin [8ms]
+2025-04-28 14:30:57.123 [info] > git ls-files --stage -- pert2/pert2.md [3ms]
+2025-04-28 14:30:57.147 [info] > git cat-file -s b4a9472030ed1a2d49490204db4b2601414e0ec9 [11ms]
+2025-04-28 14:30:57.165 [info] > git show --textconv :pert2/pert2.md [50ms]
+2025-04-28 14:30:57.335 [info] > git blame --root --incremental a843525ca161eb58d3237050fd8ecde0844edb58 -- pert2/pert2.md [33ms]

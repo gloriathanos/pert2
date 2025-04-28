@@ -1,0 +1,94 @@
+2025-04-23 13:17:14.336 [info] 
+
+
+
+
+2025-04-23 13:17:14.383 [info] Extension host agent started.
+2025-04-23 13:17:14.768 [info] [127.0.0.1][5d360fbe][ManagementConnection] New connection established.
+2025-04-23 13:17:15.447 [info] [127.0.0.1][49137275][ExtensionHostConnection] New connection established.
+2025-04-23 13:17:15.875 [info] [127.0.0.1][49137275][ExtensionHostConnection] <456> Launched Extension Host Process.
+2025-04-23 13:22:42.402 [error] #3: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 13:22:44.048 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:22:44.074 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:23:51.794 [error] #7: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:23:51.808 [error] #8: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:24:24.813 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/489016ec-d9a6-46cc-873b-f443b6910f72
+2025-04-23 13:24:24.844 [info] Installing extension: ms-toolsai.jupyter-renderers {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:24:24.847 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-renderers
+2025-04-23 13:24:25.768 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.1.0: ms-toolsai.jupyter-renderers
+2025-04-23 13:24:25.788 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.1.0
+2025-04-23 13:24:25.802 [info] Extension installed successfully: ms-toolsai.jupyter-renderers file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:24:26.061 [error] #10: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:24:29.109 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/1a8f94cd-ac76-4908-b2fa-80d769cb162a
+2025-04-23 13:24:29.391 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/50997313-e5e3-483c-b1f0-44f72b48dbe7
+2025-04-23 13:24:29.407 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:24:29.408 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-cell-tags
+2025-04-23 13:24:29.511 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9: ms-toolsai.vscode-jupyter-cell-tags
+2025-04-23 13:24:29.523 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9
+2025-04-23 13:24:29.544 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:24:32.944 [info] Installing extension: ms-python.vscode-pylance {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:24:32.945 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2025-04-23 13:24:32.965 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/5ae5ce4c-f48c-4cc3-8ff1-4966306c7ba8
+2025-04-23 13:24:32.974 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:24:32.974 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-slideshow
+2025-04-23 13:24:33.049 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6: ms-toolsai.vscode-jupyter-slideshow
+2025-04-23 13:24:33.059 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6
+2025-04-23 13:24:33.078 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:24:33.634 [error] #12: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:24:33.636 [error] #13: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:24:44.188 [error] #15: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:24:44.218 [error] #16: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:24:46.107 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.4.1: ms-python.vscode-pylance
+2025-04-23 13:24:47.186 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2025.4.1
+2025-04-23 13:24:47.227 [info] Extension installed successfully: ms-python.vscode-pylance file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:24:47.498 [error] #18: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:33:33.751 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/02bf984a-da57-401f-bfe9-b0a334e1a11f
+2025-04-23 13:33:33.850 [info] Installing extension: ms-toolsai.jupyter {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:33:33.870 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter
+2025-04-23 13:33:34.627 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-2025.3.0: ms-toolsai.jupyter
+2025-04-23 13:33:34.705 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-2025.3.0
+2025-04-23 13:33:34.733 [info] Extension installed successfully: ms-toolsai.jupyter file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:33:46.304 [error] #21: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 13:33:46.310 [error] #20: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:33:57.769 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/fba426d5-95b0-45bd-8bff-29fe3cf7a681
+2025-04-23 13:33:57.773 [info] Installing extension: ms-toolsai.jupyter-renderers {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:33:57.774 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-renderers
+2025-04-23 13:33:57.821 [info] Deleted existing extension from disk ms-toolsai.jupyter-renderers /root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.1.0
+2025-04-23 13:33:58.421 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.1.0: ms-toolsai.jupyter-renderers
+2025-04-23 13:33:58.436 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.1.0
+2025-04-23 13:33:58.461 [info] Extension installed successfully: ms-toolsai.jupyter-renderers file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:33:58.730 [error] #23: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:34:46.661 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/835a0223-d50e-4703-abcf-203e02c9c6cc
+2025-04-23 13:34:46.688 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:34:46.689 [info] Installing the extension without checking dependencies and pack ms-python.debugpy
+2025-04-23 13:34:47.396 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/018ec1df-a481-4a00-bed7-394563b177b9
+2025-04-23 13:34:47.406 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:34:47.406 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-cell-tags
+2025-04-23 13:34:47.430 [info] Deleted existing extension from disk ms-toolsai.vscode-jupyter-cell-tags /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9
+2025-04-23 13:34:47.539 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9: ms-toolsai.vscode-jupyter-cell-tags
+2025-04-23 13:34:47.560 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9
+2025-04-23 13:34:47.616 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:34:47.884 [error] #25: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:34:48.452 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2025.6.0: ms-python.debugpy
+2025-04-23 13:34:48.512 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2025.6.0
+2025-04-23 13:34:48.551 [info] Extension installed successfully: ms-python.debugpy file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:34:48.812 [error] #26: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:34:55.234 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/f777e2ba-69ec-4fe3-b978-7dc298bf7745
+2025-04-23 13:34:55.242 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:34:55.243 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-slideshow
+2025-04-23 13:34:55.283 [info] Deleted existing extension from disk ms-toolsai.vscode-jupyter-slideshow /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6
+2025-04-23 13:34:55.323 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6: ms-toolsai.vscode-jupyter-slideshow
+2025-04-23 13:34:55.335 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6
+2025-04-23 13:34:55.356 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:34:55.619 [error] #28: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:43:38.609 [info] Downloaded extension to file:///root/.vscode-server/data/CachedExtensionVSIXs/00265dac-98e4-4403-bcb9-fe4082e876da
+2025-04-23 13:43:38.619 [info] Installing extension: ms-toolsai.jupyter {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.2","date":"2025-04-10T01:21:25.295Z"}}
+2025-04-23 13:43:38.620 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter
+2025-04-23 13:43:38.665 [info] Deleted existing extension from disk ms-toolsai.jupyter /root/.vscode-server/extensions/ms-toolsai.jupyter-2025.3.0
+2025-04-23 13:43:39.509 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-2025.3.0: ms-toolsai.jupyter
+2025-04-23 13:43:39.570 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-2025.3.0
+2025-04-23 13:43:39.631 [info] Extension installed successfully: ms-toolsai.jupyter file:///root/.vscode-server/extensions/extensions.json
+2025-04-23 13:43:44.272 [error] #30: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2025-04-23 13:43:44.689 [error] #31: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-04-23 13:50:08.192 [info] [127.0.0.1][5d360fbe][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-23 13:50:08.573 [info] [127.0.0.1][49137275][ExtensionHostConnection] <456> Extension Host Process exited with code: 0, signal: null.
